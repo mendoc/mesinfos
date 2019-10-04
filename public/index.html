@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-signin-client_id" content="252458884092-m70iueuiq53d7qsecs8v7k6bgagrced6.apps.googleusercontent.com">
+  <title>Mes infos</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({
+        'gtm.start': new Date().getTime(),
+        event:'gtm.js'}
+      );
+      var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W7W6ZTP');
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W7W6ZTP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="contact-area">
+    <div class="contact">
+      <main>
+        <section>
+          <div class="content">
+            <img id="image" src="#" alt="Profile Image">
+  
+            <aside>
+              <h1 id="name"></h1>
+              <p id="email"></p>
+            </aside>
+            
+            <button>
+              <span id="btn-partager">Déconnexion</span>
+            </button>
+          
+            <div id="parent-qrcode"><div id="qrcode"></div></div>
+            
+          </div>
+        </section>
+        <div id="google-button"></div>
+      </main>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://apis.google.com/js/platform.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-database.js"></script>
+  <script src="assets/js/qrcode.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
